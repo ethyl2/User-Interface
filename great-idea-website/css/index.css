@@ -173,6 +173,7 @@ nav a:hover {
 }
 
 .address {
+	
 	line-height: 1.25em;
 	margin-top: 1em;
 }
@@ -182,6 +183,15 @@ nav a:hover {
 	color: black;
 }
 
+.address:hover {
+	font-family: 'Turret Road', sans-serif;
+	color: rgb(11, 127, 148);
+	cursor: pointer;
+}
+
+.address a:hover {
+	color: rgb(11, 127, 148);
+}
 
 footer p {
 	text-align: center;
